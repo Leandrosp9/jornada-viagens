@@ -9,6 +9,11 @@
     gap: 32px;
 }
 
+.testimonial-container article header  {
+     margin: 0;
+     padding: 0;
+ }
+
 .testimonial-container article header p {
     font-size: 16px;
     line-height: 28px;
@@ -59,6 +64,21 @@
 @media screen and (min-width: 1440px) {
     .testimonial-container {
         flex-direction: row;
+        width: 900px;
     }
+
+    .testimonial-container article  {
+        width: 300px;
+    }
+
+     .testimonial-container article header  {
+         width: 330px;
+         max-height: 170px;
+    }  
+    .testimonial-container article header p {
+        min-width: 300px;
+        margin-right: 10px;
+    }
+
 }
 
